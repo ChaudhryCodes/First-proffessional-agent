@@ -7,7 +7,7 @@ recognizer = sr.Recognizer()
  
 # Speak function
 def speak_text(text):
-    print("Agent:", text)
+    print("Agent:", text
     engine = pyttsx3.init()
     engine.say(text)
     engine.runAndWait()
@@ -129,4 +129,5 @@ def appointment_scheduler():
  
 # Run the agent
 if __name__ == "__main__":
+
     appointment_scheduler()
